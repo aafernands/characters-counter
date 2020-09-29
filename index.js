@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 var messageLength = 148;
 function myFunction() {
 	var message = prompt('Write a message:');
