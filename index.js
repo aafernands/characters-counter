@@ -1,16 +1,16 @@
-tweetCount = tweet.length;
-tweetLength = 148;
-YourMessage = tweet;
+charactersCount = message.length;
+messageLength = 148;
+yourMessage = message;
 
 function myFunction() {
-	var tweet = prompt('Write a message:');
-	alert(`You have written ${tweet.length} characters, you have ${148 - tweet.length} characters remaining.`);
+	var message = prompt('Write a message:');
+	alert(`You have written ${message.length} characters, you have ${148 - message.length} characters remaining.`);
 
-	document.getElementById('YourMessage').innerHTML = YourMessage;
+	return (document.getElementById('yourMessage').innerHTML = yourMessage);
 
-	document.getElementById('tweetCount').innerHTML = tweetCount;
+	return (document.getElementById('charactersCount').innerHTML = charactersCount);
 
-	document.getElementById('remainingCharacters').innerHTML = tweetCount - 148;
+	return (document.getElementById('messageLength').innerHTML = messageLength);
 
-	document.getElementById('tweetLength').innerHTML = tweetLength;
+	return (document.getElementById('remainingCharacters').innerHTML = charactersCount - 148);
 }
