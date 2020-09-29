@@ -1,16 +1,10 @@
-charactersCount = message.length;
-messageLength = 148;
-yourMessage = message;
-
+var messageLength = 148;
 function myFunction() {
 	var message = prompt('Write a message:');
+	var charactersCount = message.length;
 	alert(`You have written ${message.length} characters, you have ${148 - message.length} characters remaining.`);
-
-	return (document.getElementById('yourMessage').innerHTML = yourMessage);
-
-	return (document.getElementById('charactersCount').innerHTML = charactersCount);
-
-	return (document.getElementById('messageLength').innerHTML = messageLength);
-
-	return (document.getElementById('remainingCharacters').innerHTML = charactersCount - 148);
+	document.getElementById('yourMessage').innerHTML = message
+	document.getElementById('charactersCount').innerHTML = charactersCount
+	document.getElementById('messageLength').innerHTML = messageLength
+	document.getElementById('remainingCharacters').innerHTML = charactersCount - 148
 }
