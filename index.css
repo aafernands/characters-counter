@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Montserrat:wght@100&display=swap');
+
+body {
+	font-family: 'Courier Prime', monospace;
+	background-color: gray;
+}
+
+.header {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+.content {
+	padding: 20px;
+	background-color: green;
+}
+
+.content:hover {
+	background-color: rgb(6, 255, 6);
+}
+
+.passwordBox {
+    background-color: rgb(241, 247, 245);
+    border-style: rgb(85, 84, 84);
+    border-radius: 10px;
+    padding: 20px;
+}
